@@ -1,0 +1,43 @@
+:root {
+    --color-blue: #2E5BDC;
+}
+
+.navbar-main .nav-link.active {
+    border-bottom: 1px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+.circle-button {
+    display: inline-block;
+    width: 40px;
+    /* Tamaño del círculo */
+    height: 40px;
+    /* Tamaño del círculo */
+    border-radius: 50%;
+    /* Hace que el borde sea redondeado, creando un círculo */
+    border: 2px solid #007bff;
+    /* Color de fondo del círculo */
+    color: #007bff;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto en el centro del círculo */
+    line-height: 40px;
+    /* Centra verticalmente el texto en el círculo */
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+    margin: 5px;
+    /* Margen entre los botones */
+}
+
+.circle-button.active {
+    border-color: #007bff;
+    /* Color del borde para el enlace activo */
+    color: #fff;
+    /* Color del texto para el enlace activo */
+    background-color: #007bff;
+    /* Color de fondo para el enlace activo */
+}
+
+.thead-color {
+    background-color: rgb(240, 235, 235);
+}
